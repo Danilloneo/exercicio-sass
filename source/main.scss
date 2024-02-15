@@ -11,7 +11,6 @@
     }
 }
 
-
 body {
     background-color: variaveis.$corPrincipal;
 
@@ -50,14 +49,12 @@ header {
     }
 }
 
-
 .menu {
     display: flex;
     li a {
         @include menuLi();
     }
 }
-
 
 section {
     padding: 56px 0;
@@ -92,9 +89,6 @@ section {
         }
     }  
 }
-
-
-
 
 @media screen and (max-width: variaveis.$tablet) {
     .container {
